@@ -15,6 +15,7 @@ phases:
     commands:
       - composer install
       - npm install  # Assuming you also have Node.js dependencies
+      - cp .env.example .env
 artifacts:
   # Define artifacts to be uploaded after the build
   # Example: upload entire project directory as a zip
